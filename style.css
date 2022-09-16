@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logobar{
+    width: 100px;
+    height: 200px;
+    background-color: dodgerblue;
+    border-radius: 50px;
+    
+}
+.review{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    height: 50vh;
+    background-image: url('./assests/testimonial-bg.jpg');
+}
+.box{
+   width: 100%;
+
+   
+   padding: 20px 20px 20px 20px;
+   border: 4px double dodgerblue;
+}
+.callculater{
+    background-image: url('./assests/paralax-5.png');
+    width: 100%;
+    min-height: 300px;
+    margin-top:40px;
+    background-repeat: no-repeat;
+    
+}
+.footer{
+    width: 100%;
+    min-height: 50vh;
+    background-color: white;
+}
+@media  screen and (max-width:768px) {
+   
+    .logobar{
+       margin: 5px;
+    }
+    
+    
+}
