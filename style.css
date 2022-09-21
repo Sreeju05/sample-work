@@ -47,3 +47,35 @@ body{
     
 }
 
+.ani{
+    animation: sree 3s  infinite linear;
+}
+@keyframes sree{
+    0%{
+        transform: translate(-15px , 0px);
+    }
+    50%{
+        transform: translate(0px, -15px);
+
+    }
+    100%{
+        transform: translate(-15px , 0px);
+    }
+}
+.dam{
+    position: relative;
+    bottom: 25%;
+    animation: dam 3s infinite linear;
+}
+@keyframes dam {
+    0%{
+        transform: translate(-45px , 0px);
+    }
+    50%{
+        transform: translate(0px, -45px);
+
+    }
+    100%{
+        transform: translate(-45px , 0px);
+    }
+}
