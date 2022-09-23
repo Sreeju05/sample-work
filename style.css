@@ -87,24 +87,13 @@ body{
         position: relative;
         left: 35px;
     }
-}
-.sam{
-    position: relative;
-    top: -70%;
-    left:35%;
-    animation: sam 3s infinite;
-}
-@keyframes sam{
-    0%{
-        transform: translateY(-20px) ;
-    }
-    50%{
-        transform: translateY(20px);
-    }
-    100%{
-        transform: translateY(-20px);
+    .card1{
+        position: relative;
+        left: 8%;
     }
 }
+
+
 .card1{
     height: 500px;
     width: 300px;
