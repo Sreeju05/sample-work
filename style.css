@@ -91,6 +91,10 @@ body{
         position: relative;
         left: 8%;
     }
+    marquee{
+        height: 100vh;
+        
+    }
 }
 
 
@@ -98,4 +102,20 @@ body{
     height: 500px;
     width: 300px;
     border: 1px solid black;
+}
+marquee{
+    height: 70vh;
+    
+}
+.ball{
+    max-width: 200px;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
