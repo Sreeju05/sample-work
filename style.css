@@ -48,6 +48,7 @@ body{
 }
 
 .ani{
+    width: 700px;
     animation: sree 3s  infinite linear;
 }
 @keyframes sree{
@@ -103,4 +104,9 @@ body{
     100%{
         transform: translateY(-20px);
     }
+}
+.card1{
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
 }
