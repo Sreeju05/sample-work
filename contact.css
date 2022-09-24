@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.row{
+    /* border: 2px solid black; */
+    margin-top: 200px;
+}
+.details{
+    border: 2px solid black;
+}

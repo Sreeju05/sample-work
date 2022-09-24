@@ -37,11 +37,8 @@ body{
     background-repeat: no-repeat;
     
 }
-.footer{
-    width: 100%;
-    min-height: 50vh;
-    background-color: white;
-}
+
+
 .navbar-toggler:focus{
     box-shadow: none;
     
@@ -71,30 +68,39 @@ body{
 }
 @keyframes dam {
     0%{
-        transform: translateY(-20px)
+        transform: rotateY(0deg)
+        
     }
-    50%{
-        transform: translateY(20px)
-
-    }
+    
     100%{
-        transform: translateY(-20px)
+        transform: rotateY(360deg);
     }
 }
 @media screen and (max-width:576px){
+    .img2{
+        width: 80%;
+        margin: auto;
+        display: block;
+        overflow-x: hidden;
+    }
+    
+    
+    
     .img1{
         width: 80%;
-        position: relative;
-        left: 35px;
+        position:relative;
+        left: 10%;
     }
     .card1{
         position: relative;
-        left: 8%;
+        
+       
     }
     marquee{
         height: 100vh;
         
     }
+   
 }
 
 
@@ -119,4 +125,54 @@ marquee{
     100%{
         transform: rotate(360deg);
     }
+}
+.navbar-nav .nav-link{
+    color: palevioletred !important;
+}
+.footer{
+    width: 100%;
+  padding: 100px;
+    
+    background-color: black;
+   
+}
+
+p{
+    color: white;
+    font-family: fantasy;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: auto;
+    display: block;
+
+}
+.head{
+ font-family: fantasy;
+ font-size: 50px;
+ font-weight: 200;
+ letter-spacing: 1px;
+}
+h5{
+    color: white;
+    font-family: fantasy;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+a{
+color: white !important;
+font-family: fantasy;
+font-size: 15px;
+font-weight: 500;
+letter-spacing: 1px;
+}
+.navbar{
+    background-color: transparent !important;
+    position: sticky;
+    top: 0px;
+   
+    background-image: url('./assests/flying-rocket-3026705-2526651.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
