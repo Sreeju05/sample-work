@@ -45,7 +45,7 @@ body{
 }
 
 .ani{
-    width: 700px;
+   
     animation: sree 3s  infinite linear;
 }
 @keyframes sree{
@@ -175,4 +175,5 @@ letter-spacing: 1px;
     background-image: url('./assests/flying-rocket-3026705-2526651.png');
     background-size: cover;
     background-repeat: no-repeat;
+
 }
